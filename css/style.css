@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faf4f2;
+}
+
+/* ------header------ */
+
+.header{
+    background-color: #fde2d8;
+}
+
+.header .divTop{
+    margin-left: 60px; padding-top: 10px;
+}
+
+.header .divTop img{
+    width: 40px;
+    height: 40px;
+}
+
+.header .divBottom ul{
+    padding:10px 0
+}
+
+.header .divBottom ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.header .divTop, .header .divBottom{
+    margin-left: 60px;
+}
+
+/* ----carousel---- */
+
+.carousel{
+    background-image: url(../image/BG.png);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----news------ */
+
+.news{
+    padding-top: 40px;
+    background-color: #faf4f2;
+}
+
+.news .news-top{
+    text-align: center;
+    color: gray;
+}
+
+.news .news-center{
+    display: flex;
+    justify-content: center;
+
+}
+
+.news .news-center .new-center-item-1{
+    margin: 40px 20px;
+}
+
+#hover-item-1:hover , #hover-item-1:hover p{
+    background-color: #d49b89;
+    color: white;
+}
+
+.news .news-center .new-center-item-1 {
+   width: 350px;
+   height: 500px;
+   background-color: white;
+   border-radius: 15px;
+   padding: 20px;
+}
+
+.news .news-center .new-center-item-1 .item-top{
+    position: relative;
+    
+}
+
+.news .news-center .new-center-item-1 .item-top img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.news .news-center .new-center-item-1 .item-top .item-top-img {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 40px;
+    text-align: center;
+    border-radius: 12px;
+    color: #d49b89;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.news .news-center .new-center-item-1 .item-bottom {
+
+}
+
+.news .news-center .new-center-item-1 .item-bottom .item-bottom-title{
+    text-align: center;
+}
+
+.news .news-center .new-center-item-1 .item-bottom .item-bottom-title h1{
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.news .news-center .new-center-item-1 .item-bottom .item-bottom-title p{
+    font-size: 16px;
+    color: gray;
+    padding-top: 8px;
+}
+
+.item-bottom .item-bottom-details{
+    text-align: center ;
+    padding: 20px 0;
+}
+
+.item-bottom .item-bottom-details button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightgrey;
+    color: gray;
+    cursor: pointer;
+}
+
+.item-bottom .item-bottom-details button:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+.news-bottom{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.news-bottom button{
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    border: 2px solid #f79e83;
+    border-radius: 20px;
+    background-color: #faf4f2;
+    color: #f79e83;
+}
+
+.news-bottom button:hover {
+    background-color: #f79e83;
+    color: white;
+    cursor: pointer;
+}
+
+/* ----------download------------ */
+
+.download {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    background-color: #f8e1db;
+    /* padding-top: 20px; */
+
+}
+
+.download .div-left {
+    /* padding-left: 100px; */
+    background-image: url(../image/mask.png);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    width: 40%;
+
+}
+
+
+
+.download .div-right {
+    padding-top: 50px;
+}
+
+.div-right .div-right-top{
+
+}
+
+.div-right-top p {
+    padding: 20px 0;
+}
+
+.div-right .div-right-bottom{
+    display: flex;
+    padding-top: 20px;
+}
+
+.div-right-bottom .bottom-app{
+
+}
+
+.div-right-bottom .bottom-app .img-app {
+    padding-top: 20px;
+}
+    
+
+
+.div-right-bottom .bottom-social {
+
+}
+
+.bottom-social .item-social {
+    padding-top: 20px;
+}
+
+.item-social ul li {
+    display: inline;
+    font-size: 25px;
+    padding-right: 10px;
+    color: #e76f51;
+}
+
+/* ----------ignore--------- */
+.ignore {
+    height: 80px;
+    background-color: #faf4f2;
+}
+
+/* ---------contact---------- */
+
+.contact {
+    background-color: #f8e1db;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.contact .contact-content{
+    display: flex;
+    padding: 100px 0px 0 200px;
+}
+
+
+.contact-content .content-left{
+}
+
+.content-left p {
+    padding-top: 20px;
+}
+
+.contact-content .content-right{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.content-right .content-right-1 {
+}
+
+.content-right-1 h3 {
+    margin-bottom: 15px;
+}
+
+.content-right-1 p {
+    margin-bottom: 5px;
+}
+
+.contact .contact-sline {
+    display: flex;
+    justify-content: center;
+    padding:50px ;
+}
+
+.contact-sline i {
+    padding-right: 3px;
+
+}
+
+.contact-sline p {
+    padding-right: 3px;
+}
